@@ -2376,7 +2376,7 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var Component = _video2.default.getComponent('Component');
+// const Component = videojs.getComponent('Component');
 var Tech = _video2.default.getComponent('Tech');
 var cssInjected = false;
 
@@ -2655,11 +2655,10 @@ Vimeo.nativeSourceHandler.dispose = function () {};
 
 Vimeo.registerSourceHandler(Vimeo.nativeSourceHandler);
 
-/* 
-***************** fix for version 6 and 7 update  *************
-Component.registerComponent('Vimeo', Vimeo);
-Tech.registerTech('Vimeo', Vimeo);
-*/
+// ****************** fix for version 6 and 7 update*************
+// Component.registerComponent('Vimeo', Vimeo);
+// Tech.registerTech('Vimeo', Vimeo);
+
 if (typeof _video2.default.registerTech !== 'undefined') {
   _video2.default.registerTech('Vimeo', Vimeo);
 } else {
