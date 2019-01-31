@@ -1,7 +1,7 @@
 import videojs from 'video.js';
 import VimeoPlayer from '@vimeo/player';
 
-const Component = videojs.getComponent('Component');
+// const Component = videojs.getComponent('Component');
 const Tech = videojs.getComponent('Tech');
 let cssInjected = false;
 
@@ -263,11 +263,10 @@ Vimeo.nativeSourceHandler.dispose = function() { };
 
 Vimeo.registerSourceHandler(Vimeo.nativeSourceHandler);
 
-/* 
-***************** fix for version 6 and 7 update  *************
-Component.registerComponent('Vimeo', Vimeo);
-Tech.registerTech('Vimeo', Vimeo);
-*/
+// ****************** fix for version 6 and 7 update*************
+// Component.registerComponent('Vimeo', Vimeo);
+// Tech.registerTech('Vimeo', Vimeo);
+
 if (typeof videojs.registerTech !== 'undefined') {
   videojs.registerTech('Vimeo', Vimeo);
 } else {
