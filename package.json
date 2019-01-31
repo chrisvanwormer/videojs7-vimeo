@@ -1,7 +1,7 @@
 {
-  "name": "videojs-vimeo",
-  "version": "2.0.2",
-  "description": "Videojs Vimeo plugin using the official Vimeo Player API.",
+  "name": "videojs7-vimeo",
+  "version": "2.0.3",
+  "description": "Videojs Vimeo plugin using the official Vimeo Player API for version 6 and up.",
   "main": "es5/Vimeo.js",
   "scripts": {
     "prebuild": "npm run clean",
@@ -24,7 +24,7 @@
     "videojs-plugin",
     "vimeo"
   ],
-  "author": "Benoit Tremblay <trembl.ben@gmail.com>",
+  "author": "Boney Collins <carlosaguilarcollins@gmail.com>",
   "license": "MIT",
   "browserify": {
     "transform": [
@@ -88,7 +88,7 @@
     "karma-safari-launcher": "^0.1.1",
     "lodash": "^4.11.2",
     "mkdirp": "^0.5.1",
-    "npm-run-all": "^1.5.1",
+    "npm-run-all": "^1.8.0",
     "qunitjs": "^1.21.0",
     "rimraf": "^2.5.1",
     "sinon": "~1.14.0",
@@ -105,10 +105,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/videojs/videojs-vimeo.git"
+    "url": "git+https://github.com/vr-fox/videojs7-vimeo.git"
   },
   "bugs": {
-    "url": "https://github.com/videojs/videojs-vimeo/issues"
+    "url": "https://github.com/vr-fox/videojs7-vimeo/issues"
   },
-  "homepage": "https://github.com/videojs/videojs-vimeo#readme"
+  "homepage": "https://github.com/vr-fox/videojs7-vimeo#readme"
 }

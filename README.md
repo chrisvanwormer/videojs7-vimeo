@@ -5,8 +5,10 @@ inspired by the official [VideoJS YouTube project](https://github.com/videojs/vi
 
 ## Installation
 
-For now, the package is not published on any package manager — download the dist file or
-point your package manage at this repo.
+This package was made to update the npm package of the videojs-vimeo, and also make it compatible
+the version 6 and 7 (tested on v7.4.1)
+
+npm i videojs7-vimeo
 
 ## Usage
 
